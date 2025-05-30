@@ -38,11 +38,12 @@ Built for testing, learning, and exploring the capabilities of Hermes-3 via its 
 ```bash
 git clone https://github.com/sezaras85/hermes3-terminal-bot.git
 cd hermes3-terminal-bot
+```
 
 Install dependencies:
 
 ```bash
 
 pip install requests
-
+```
 
