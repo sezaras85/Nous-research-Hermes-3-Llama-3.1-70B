@@ -13,7 +13,6 @@ This repo is community-driven. Let's explore the future of decentralized AI toge
 A simple CLI-based chatbot using the powerful `Hermes-3-Llama3-70B` model from [Nous Research](https://nousresearch.com/).  
 Built for testing, learning, and exploring the capabilities of Hermes-3 via its official inference API.
 
-![Hermes Banner](https://portal.nousresearch.com/_next/image?url=%2Fimages%2Flogos%2Fhermes3.png&w=3840&q=75)
 
 <img width="1230" alt="image" src="https://github.com/sezaras85/Nous-research-Hermes-3-Llama-3.1-70B/blob/main/nous%20ekran%201.png" />
 ---
