@@ -36,11 +36,10 @@ Built for testing, learning, and exploring the capabilities of Hermes-3 via its 
 
 ## 🛠️ Installation
 
-1. Clone the repo:
 
 ```bash
-git clone https://github.com/sezaras85/hermes3-terminal-bot.git
-cd hermes3-terminal-bot
+mkdir hermes-bot
+cd hermes-bot
 ```
 
 Install dependencies:
@@ -50,7 +49,55 @@ Install dependencies:
 pip install requests
 ```
 
-Add your API key to the script (or use an .env file for security).
+```bash
+
+nano hermes_bot.py
+```
+
+```bash
+
+import requests
+
+API_KEY = 'YOUR_API_KEY'
+API_URL = 'https://inference-api.nousresearch.com/v1/chat/completions'  
+
+def hermes_query(prompt):
+    headers = {
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "model": "Hermes-3-Llama-3.1-70B",
+        "messages": [{"role": "user", "content": prompt}]
+    }
+
+    try:
+        response = requests.post(API_URL, headers=headers, json=payload)
+        response.raise_for_status()
+        result = response.json()
+        return result['choices'][0]['message']['content']
+    except Exception as e:
+        return f"Hata oluştu: {str(e)}"
+
+def main():
+    print("🔹 Hermes-3 Terminal Chatbot'a Hoş Geldin! (Çıkmak için: 'çık' yaz)")
+    while True:
+        prompt = input("\n👤 Sen: ")
+        if prompt.lower() in ['çık', 'exit', 'quit']:
+            print("🧠 Görüşmek üzere!")
+            break
+        reply = hermes_query(prompt)
+        print(f"\n🤖 Hermes-3: {reply}")
+
+if __name__ == "__main__":
+    main()
+
+```
+Add your API key to YOUR_API_KEY (or use an .env file for security).
+
+ctrl+O+ yes and save
+
 
 🧪 How to Use
 
