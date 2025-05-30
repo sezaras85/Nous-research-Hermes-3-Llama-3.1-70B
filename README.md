@@ -47,3 +47,50 @@ Install dependencies:
 pip install requests
 ```
 
+Add your API key to the script (or use an .env file for security).
+
+🧪 How to Use
+
+Run the bot with:
+
+```bash
+python bot.py
+```
+
+Then simply chat with the Hermes-3 model:
+
+```bash
+You: What is Nous Protocol?
+Hermes-3: Nous Protocol is a decentralized knowledge infrastructure that...
+```
+
+🧩 Example Prompt (cURL)
+
+You can also test your key directly via cURL:
+
+```bash
+curl https://inference-api.nousresearch.com/v1/chat/completions \
+  -H "Authorization: Bearer sk-xxx" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "nous-hermes-3-llama3-70b",
+    "messages": [{"role": "user", "content": "Hello Hermes-3!"}]
+  }'
+```
+
+
+🛡️ Disclaimer
+
+This project is unofficial and not affiliated with Nous Research.
+All credits to the amazing Nous team for providing API access to Hermes-3.
+
+
+
+
+
+
+
+
+
+
+
