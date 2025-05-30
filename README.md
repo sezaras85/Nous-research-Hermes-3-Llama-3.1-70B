@@ -10,7 +10,7 @@ This repo is community-driven. Let's explore the future of decentralized AI toge
 
 # 🧠 Hermes-3 Terminal Chatbot (Nous Research API)
 
-A simple CLI-based chatbot using the powerful `Hermes-3-Llama3-70B` model from [Nous Research](https://nousresearch.com/).  
+A simple CLI-based chatbot using the powerful `Hermes-3-Llama3-70B` model from https://portal.nousresearch.com/api-keys
 Built for testing, learning, and exploring the capabilities of Hermes-3 via its official inference API.
 
 
