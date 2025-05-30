@@ -1,3 +1,5 @@
+<img width="1230" alt="image" src="[https://github.com/sezaras85/Sentient-ai/blob/main/sentient%20resim.png](https://github.com/sezaras85/Nous-research-Hermes-3-Llama-3.1-70B/blob/main/nous%20ekran.jpeg)" />
+
 # Nous-research-
 
 Nous Research is a leader in the development of human-centric language models and simulators.  there primary focus areas include model architecture, data synthesis, fine-tuning, and reasoning, all aimed at aligning AI systems with real-world user experiences. its prioritize the development of open-source, human-compatible models, which challenge the conventional closed-model approach. 
