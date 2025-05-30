@@ -1,4 +1,4 @@
-<img width="1230" alt="image" src="(https://github.com/sezaras85/Nous-research-Hermes-3-Llama-3.1-70B/blob/main/nous%20ekran.jpeg)" />
+<img width="1230" alt="image" src="https://github.com/sezaras85/Nous-research-Hermes-3-Llama-3.1-70B/blob/main/nous%20ekran.jpeg" />
 
 # Nous-research-
 
